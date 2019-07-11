@@ -1,7 +1,7 @@
 const princess = ["tt2294629", "tt0097757","tt0398286", "tt1217209", "tt3521164", "tt0103639"];
 const adventures = ["tt0114709", "tt0266543", "tt2096673", "tt3521164", "tt2380307", "tt1979388"];
-const superHeroes = ["tt5612702", "tt0131675", "tt3062328", "tt2455546", "tt0094074"];
-const babies = ["tt3006844","tt0268380", "tt1490017", "tt0069289", "tt4131800", "tt0198781"];
+const superHeroes = ["tt5612702", "tt0131675", "tt3062328","tt1626038", "tt2455546", "tt0094074"];
+const babies = ["tt0317219","tt0268380", "tt1490017", "tt0069289", "tt4131800", "tt0198781"];
 const princessButton =document.getElementById("princess");
 const adventuresButton=document.getElementById("adventures");
 const superHButton= document.getElementById("superHeroes");
