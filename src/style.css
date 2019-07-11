@@ -80,14 +80,18 @@ nav{/*tamaño del menu del nav*/
   border-radius: 8px;
   height:250px;
   width:250px;
-  margin:2.5%;
+  margin-top: 18%;
+  margin-right:2.5%;
+  margin-left: 2.5%;
 }
 .heroesOptions{
   background-image: url(https://i.ibb.co/ZKyY7h5/super200.jpg);
   border-radius: 8px;
   height:250px;
   width:250px;
-  margin:2.5%;
+  margin-top: 18%;
+  margin-right:2.5%;
+  margin-left: 2.5%;
 }
 
 .adventureOptions{
@@ -95,7 +99,9 @@ nav{/*tamaño del menu del nav*/
   border-radius: 8px;
   height:250px;
   width:250px;
-  margin:2.5%;
+  margin-top: 18%;
+  margin-right:2.5%;
+  margin-left: 2.5%;
 }
 
 .babiesOptions{
@@ -103,5 +109,7 @@ nav{/*tamaño del menu del nav*/
   border-radius: 8px;
   height:250px;
   width:250px;
-  margin:2.5%;
+  margin-top: 18%;
+  margin-right:2.5%;
+  margin-left: 2.5%;
 }
