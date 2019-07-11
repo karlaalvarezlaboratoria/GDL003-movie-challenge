@@ -1,63 +1,75 @@
-# Movie Challenge
+# **MOVIE CHALLENGE**
 
-## Índice
+## **MovieKids**
 
-- [Preámbulo](#preámbulo)
-- [Resumen del proyecto](#resumen-del-proyecto)
-- [Consideraciones generales](#consideraciones-generales)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Avances necesarios](#avances-necesarios)
-- [Consideraciones técnicas](#consideraciones-técnicas)
+La meta de este proyecto es crear una página Web de películas orientada a las necesidades del usuario.
 
----
+Lo primero que hicimos fue leer el Readme, donde mencionaba que había que utilizar la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database). Ahi visualizamos nuestro primer reto porque no encontrabamos como jalar toda la data que queríamos. Hicimos pruebas e investigación un rato y una vez que vislumbramos una forma de jalar y utilizar la data (aún no sabíamos si iba a funcionar) nos sentamos a planear.
 
-## Preámbulo
+Juntas definimos que tipo de producto íbamos a crear y para quien iba a estar dirigido, dimos ideas de como podíamos testearlo y obtener feedback del usuario final. Creamos un prototipo de baja fidelidad pensando en que fuera sencillo y amigable con el usuario y pusimos manos a la obra buscando imágenes y una paleta de colores adecuada para nuestro prototipo de alta fidelidad.
 
-Con la aparición de plataformas para ver películas en la nube, como Netflix,
-Amazon Prime Video o HBO, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por palomitas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas, etc. ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+<img src= "https://i.ibb.co/9hk73w8/Whats-App-Image-2019-07-11-at-10-37-35-AM.jpg" />
 
-![Pelis](https://i.giphy.com/media/3o6Ztl7RvfwCp9mqhW/source.gif)
+(falta protitipo de alta fidelidad)
 
-## Resumen del proyecto
 
-Durante estos días crearás el producto que quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en algún servicio de streaming, uno de recomendaciones de películas de terror,
-comedia ... o... ¡lo que quieran!
+Lo siguente fue probar con el método **fetch** para jalar la data y pintarla en la interfaz de forma ordenada... Continuará...
 
-## Consideraciones generales
+### Definición del usuario:
+Niñ@s de 6 a 12 años y padres de familia con hijos de esa edad, con conocimiento básico de inglés o hablantes nativos. Que tengan la necesidad de encontrar películas apropiadas a ese rango de edad.
 
-- Este proyecto se debe resolver en equipos.
-- Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-- Tiempo para completar el reto: 3 días.
-- Habrán dos presentaciones, una a la mitad de la _reto_ y otra al final.
+### Historias de usuario:
 
-## Objetivos de aprendizaje
+#####  Historia de usuario 1:
+El usuario requiere botones por tipo de pelicula llamativos que lo lleven a la selección deseada.
 
-- Enfrentarte a un reto de corta duración en el que pongas
-  en práctica todo lo aprendido hasta ahora.
-  
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
+##### Definition of Done:
+- La interfaz muestra los 4 botones por tipo de pelicula de forma llamativa y clara.
+- Cada botón muestra en la interfaz la información de las peliculas elegidas con su imagen de forma ordenada.
+- La interfaz muestra un botón para volver a la página de inicio.
 
-## Avances necesarios
 
-- Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-  por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-  y las inspiraciones utilizadas para definir el producto.
-- Además, deberás detallar en el archivo _readme_, qué hizo cada integrante del
-  proyecto.
-- El producto deberá presentarse publicado en github pages.
+#### Historia de Usuario 2:
+Al usuario le gustaría poder ver el trailer de la pelicula seleccionada. (Si el tiempo lo permite):
 
-## Consideraciones técnicas
 
-- El diseño visual de los componentes es de libre elección.
-- Pueden usar algún framework de css si así lo deciden.
 
-## Sobre las presentaciones
+### Interfaz de usuario
 
-- Cada squad tendrá 3 minutos para presentar y 2 minutos para recibir preguntas.
+La interfaz de la versión 1.0 permite al usuario:
+
+- Seleccionar el tipo de películas que desea visualizar
+- Ver el resultado de su selección con imagen e información
+- Volver a la página de inicio.
+
+### Scripts / Archivos
+
+Este proyecto contiene los siguentes archivos.
+
+* `README.md`: Explica cómo acceder y   ejecutar la aplicación a travéz de la liga. Así como una introducción a la aplicación, su funcionalidad y decisiones de diseño.
+
+* `src/index.html`: Este archivo
+  contiene el _markup_ (HTML) e incluye el enlace al CSS y JavaScript necesario.
+
+* `src/data.js`: Aqui implementamos la función `fetch` para llamar a la data.
+
+* `src/main.js`: Aquí declaro mis variable y le doy funcionalidad a mi página.
+
+*  `src/style.css`: Damos estilo y hacemos responsivo.
+
+//(para el usuario)//
+### Definición del producto
+
+MovieKids es una WebApp hecha especialmente para niños de 6 a 12 años y padres de familia que quieran encontrar información y recomendaciones sobre peliculas aptas para niños.
+
+### ¿Por qué MovieKids?
+
+En una época dónde el entretenimiento es producido en masa podemos perder la perspectiva sobre que es apropiado para que un niño lo vea y disfrute. MovieKids le da la tranquilidad a los padres de familia de que sus hijos pueden elegir películas apropiadas para ellos dentro de una interfaz amigable.
+
+### Instrucciones
+
+Ingresa a la liga:
+
+Una vez dentro de la WebApp te dará la bienvenida y encontraras 4 llamativos botones uno para todas las películas de princesas, para las de súper Héroes, de aventura, y películas especiales para niños menores de 6 años. Cada uno te desplegará las películas en su tipo con su poster y la información en cada tarjetita.
+
+En el botón de la casita podrás regresar a la pagina de inicio.

@@ -5,37 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Movie challenge</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 </head>
 <body>
   <header id="mainHeader">
-    <nav id="logo">
-
+    <nav>
+<h1 id="logo">Movie Kids</h1>
     </nav>
   </header>
   <section id="selectionContent">
-    <button id="princess">Princess</button>
-    <button id="superHeroes">Super Heroes</button>
-    <button id="adventures">Adventures</button>
-    <button id="babies">Babies</button>
+    <button id="princess" class= "princessesOptions" value= "princess"  title="Pricesses options"></button>
+    <button id="superHeroes" class= "heroesOptions" type-movie= "superheros"  title="Superheros options"></button>
+    <button id="adventures" class= "adventureOptions" type-movie= "adventures"  title="Adventures options"></button>
+    <button id="babies" class= "babiesOptions" type-movie= "babies"  title="Babies options"></button>
   </section>
   <section id="movieContent">
 
   </section>
-  <section>
-      <div class="container">
-          <a href="#" id="jsonBTN" class="button">Cargar JSON</a>
-        </div>
-        <div class="container">
-          <div id="movieContainer"></div>
-        </div>
-  </section>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
   <footer id="menuFooter">
     <button id="menu"></button>
 
   </footer>
   <script src="data.js"></script>
   <script src="main.js"></script>
-  
 </body>
 </html>
