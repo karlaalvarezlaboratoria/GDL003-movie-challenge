@@ -24,9 +24,13 @@ princessButton.addEventListener("click", () => {
              <h1>${data.Title}</h1>
            </div>
            <div class="flip-card-back">
-             <h6>Year: ${data.Year}  </h6>
+             <h3>${data.Title}</h3>
+             <h6>Released: ${data.Released}  </h6>
              <h6>Director: ${data.Director} </h6>
+             <h6>Genre: ${data.Genre} </h6>
+             <h6>RunTime:${data.Runtime}</h6>
              <h6> Plot: ${data.Plot}  </h6>
+             <button>Parents recomendations</button>
            </div>
          </div>
        </div>`
@@ -51,9 +55,13 @@ adventuresButton.addEventListener("click", () => {
              <h1>${data.Title}</h1>
            </div>
            <div class="flip-card-back">
-             <h6>Year: ${data.Year}  </h6>
+             <h3>${data.Title}</h3>
+             <h6>Released: ${data.Released}  </h6>
              <h6>Director: ${data.Director} </h6>
+             <h6>Genre: ${data.Genre} </h6>
+             <h6>RunTime:${data.Runtime}</h6>
              <h6> Plot: ${data.Plot}  </h6>
+             <button>Parents recomendations</button>
            </div>
          </div>
        </div>`
@@ -78,9 +86,13 @@ superHButton.addEventListener("click", () =>{
              <h1>${data.Title}</h1>
            </div>
            <div class="flip-card-back">
-             <h6>Year: ${data.Year}  </h6>
+             <h3>${data.Title}</h3>
+             <h6>Released: ${data.Released}  </h6>
              <h6>Director: ${data.Director} </h6>
+             <h6>Genre: ${data.Genre} </h6>
+             <h6>Runtime:${data.Runtime}</h6>
              <h6> Plot: ${data.Plot}  </h6>
+             <button>Parents recomendations</button>
            </div>
          </div>
        </div>`
@@ -107,9 +119,13 @@ babiesButton.addEventListener("click", ()=>{
              <h1>${data.Title}</h1>
            </div>
            <div class="flip-card-back">
-             <h6>Year: ${data.Year}  </h6>
+             <h3>${data.Title}</h3>
+             <h6>Released: ${data.Released}  </h6>
              <h6>Director: ${data.Director} </h6>
+             <h6>Genre: ${data.Genre} </h6>
+             <h6>RunTime:${data.Runtime}</h6>
              <h6> Plot: ${data.Plot}  </h6>
+             <button>Parents recomendations</button>
            </div>
          </div>
        </div>`
@@ -117,52 +133,3 @@ babiesButton.addEventListener("click", ()=>{
   });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
