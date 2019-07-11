@@ -113,3 +113,8 @@ nav{/*tamaño del menu del nav*/
   margin-right:2.5%;
   margin-left: 2.5%;
 }
+.home{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
