@@ -74,3 +74,34 @@ body{
 
   }
 
+.princessesOptions{
+  background-image: url("https://i.ibb.co/2kJmDgB/princesas200.jpg");
+  background-color: white;
+  border-radius: 8px;
+  height:250px;
+  width:250px;
+  margin:2.5%;
+}
+.heroesOptions{
+  background-image: url(https://i.ibb.co/ZKyY7h5/super200.jpg);
+  border-radius: 8px;
+  height:250px;
+  width:250px;
+  margin:2.5%;
+}
+
+.adventureOptions{
+  background-image: url(https://i.ibb.co/8bJJk55/aventura200.jpg);
+  border-radius: 8px;
+  height:250px;
+  width:250px;
+  margin:2.5%;
+}
+
+.babiesOptions{
+  background-image: url(https://i.ibb.co/gDHk9X3/babies200.jpg);
+  border-radius: 8px;
+  height:250px;
+  width:250px;
+  margin:2.5%;
+}
