@@ -17,7 +17,7 @@ nav{/*tamaño del menu del nav*/
 }
 #logo{
   font-family:'Acme', sans-serif;;
-  font-size: 60px; 
+  font-size: 60px;
   text-align: center;
   color: aliceblue;
 }
@@ -129,4 +129,25 @@ align-content: center;
   color: aqua;
   align-items: center;
   height: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.commentBox{
+  background-color: white;
+  margin: 5%;
 }
