@@ -33,11 +33,10 @@ nav{/*tamaño del menu del nav*/
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 15em;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
   }
-
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -47,34 +46,27 @@ nav{/*tamaño del menu del nav*/
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-
   .flip-card-front, .flip-card-back {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
   }
-
   .flip-card-front {
     background-color:transparent;
     color: black;
     float: left;
-
   }
-
-  .flip-card-back {
+.flip-card-back {
     background-color:  #000000;
     opacity:0.9;
     color: white;
     transform: rotateY(180deg);
-  float: left;
-
+    float: left;
   }
-
 .princessesOptions{
   background-image: url(https://i.ibb.co/n6Xr98n/princesstxt.jpg);
   background-color: white;
@@ -95,7 +87,6 @@ nav{/*tamaño del menu del nav*/
   margin-right:2.5%;
   margin-left: 2.5%;
 }
-
 .adventureOptions{
   background-image: url(https://i.ibb.co/dK2dz2v/adventuretxt.jpg);
   border-radius: 8px;
@@ -105,7 +96,6 @@ nav{/*tamaño del menu del nav*/
   margin-right:2.5%;
   margin-left: 2.5%;
 }
-
 .babiesOptions{
   background-image: url(https://i.ibb.co/9qD4pTs/babiestxt.jpg);
   border-radius: 8px;
@@ -126,4 +116,7 @@ nav{/*tamaño del menu del nav*/
     text-align: center;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
+}
+#movieContent{
+  
 }
