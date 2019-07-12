@@ -34,7 +34,8 @@ nav{/*tamaño del menu del nav*/
     margin-right: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
   }
 
   .flip-card-inner {
@@ -112,4 +113,7 @@ nav{/*tamaño del menu del nav*/
   margin-top: 18%;
   margin-right:2.5%;
   margin-left: 2.5%;
+}
+#selectionContent{
+    
 }
