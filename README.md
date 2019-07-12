@@ -2,7 +2,7 @@
 
 ## **MovieKids**
 
-La meta de este proyecto es crear una página Web de películas orientada a las necesidades del usuario.
+La meta de este proyecto es crear una página Web de películas orientada a las necesidades del usuario. Es un reto de 3 días donde pondremos en práctica las habilidades adquiridas hasta ahora.
 
 Lo primero que hicimos fue leer el Readme, donde mencionaba que había que utilizar la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database). Ahi visualizamos nuestro primer reto porque no encontrabamos como jalar toda la data que queríamos. Hicimos pruebas e investigación un rato y una vez que vislumbramos una forma de jalar y utilizar la data (aún no sabíamos si iba a funcionar) nos sentamos a planear.
 
@@ -22,6 +22,15 @@ Lo siguente fue probar con el método **fetch** para jalar la data y pintarla en
 
 En este punto nos llegó feedback de algunos usuarios meta y de asesores de Laboratoria, lo que nos hizo replantearnos a nuestros usuarios iniciales y "estrechar" un poco el perfil. Pero también provocó que nuestro producto estuviera más enfocado a resolver una necesidad real.
 
+Le dimos diseño y acomodo a nuestra página y enlazamos una caja de comentarios desde facebook.
+
+En una siguente iteración nos gustaría implementar cambios en el diseño para que sea más acertado a los comentarios y feedback recibido.
+Nos gustaría mejorar nuestras funciones de llamado de datos y agregar más películas disponibles.
+Que nuestra interfaz pueda mostrar la información por película seleccionada y una caja de comentario por cada película disponible.
+Darle diseño a la sección donde se encuentra la caja de comentarios
+Agregar filtros de películas apropiadas para distintas situaciones con la aportación de los usuarios.
+
+
 ### Definición del usuario:
 Padres de familia con niños entre 1 y 12 años de edad, que busquen pelìculas adecuadas para ellos, y que valoren la opinión de otros padres para su selección
 
@@ -40,6 +49,10 @@ El usuario requiere botones por tipo de película que sean claros con respecto a
 #### Historia de Usuario 2:
 El usuario requiere una caja de comentario donde pueda dejar su opinión parental sobre la película vista, para que los demás padres puedan leerla y utilizarla. (Si el tiempo lo permite):
 
+##### Definition of Done:
+- La interfaz muestra la caja de comentarios desde donde podrá visualizar sus aportaciones y leer las de los demás.
+
+
 
 
 ### Interfaz de usuario
@@ -48,7 +61,8 @@ La interfaz de la versión 1.0 permite al usuario:
 
 - Seleccionar el tipo de películas que desea visualizar
 - Ver el resultado de su selección con imagen e información
-- Volver a la página de inicio.
+- Volver al inicio de la página.
+- Dejar su opinión sobre las películas vistas y ver las opiniones de los usuarios.
 
 ### Scripts / Archivos
 
@@ -59,13 +73,11 @@ Este proyecto contiene los siguentes archivos.
 * `src/index.html`: Este archivo
   contiene el _markup_ (HTML) e incluye el enlace al CSS y JavaScript necesario.
 
-* `src/data.js`: Aqui implementamos la función `fetch` para llamar a la data.
+* `src/main.js`:Aqui implementamos la función `fetch` para llamar a la data declaramos las variable y le doy funcionalidad a mi página.
 
-* `src/main.js`: Aquí declaro mis variable y le doy funcionalidad a mi página.
+*  `src/style.css`: Damos estilo.
 
-*  `src/style.css`: Damos estilo y hacemos responsivo.
 
-//(para el usuario)//
 ### Definición del producto
 
 MovieKids es una WebApp hecha padres de familia con niños de 2 a 12 años que quieran encontrar información y recomendaciones sobre películas aptas para sus hijos. Tiene filtro por tipo de película y la opción y oportunidad de que puedan escribir opiniones personalizadas sobre la película para que otros padres puedan valorarla.
@@ -81,3 +93,5 @@ Ingresa a la liga:
 Una vez dentro de la WebApp te dará la bienvenida y encontraras 4 llamativos botones uno para todas las películas de princesas, para las de súper Héroes, de aventura, y películas especiales para niños menores de 6 años. Cada uno te desplegará las películas en su tipo con su poster y la información en cada tarjetita.
 
 En el botón de la casita podrás regresar a la pagina de inicio.
+
+En el cuadro de comentarios podrás dejar tu opinión sobre las películas vistas ingresando con tu usuario de facebook.
