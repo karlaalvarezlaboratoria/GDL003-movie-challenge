@@ -76,7 +76,7 @@ nav{/*tamaño del menu del nav*/
   }
 
 .princessesOptions{
-  background-image: url("https://i.ibb.co/2kJmDgB/princesas200.jpg");
+  background-image: url(https://i.ibb.co/n6Xr98n/princesstxt.jpg);
   background-color: white;
   border-radius: 8px;
   height:250px;
@@ -84,9 +84,10 @@ nav{/*tamaño del menu del nav*/
   margin-top: 18%;
   margin-right:2.5%;
   margin-left: 2.5%;
+  text-align-last: center;
 }
 .heroesOptions{
-  background-image: url(https://i.ibb.co/ZKyY7h5/super200.jpg);
+  background-image: url(https://i.ibb.co/ZYMM7bM/supertxt.jpg);
   border-radius: 8px;
   height:250px;
   width:250px;
@@ -96,7 +97,7 @@ nav{/*tamaño del menu del nav*/
 }
 
 .adventureOptions{
-  background-image: url(https://i.ibb.co/8bJJk55/aventura200.jpg);
+  background-image: url(https://i.ibb.co/dK2dz2v/adventuretxt.jpg);
   border-radius: 8px;
   height:250px;
   width:250px;
@@ -106,7 +107,7 @@ nav{/*tamaño del menu del nav*/
 }
 
 .babiesOptions{
-  background-image: url(https://i.ibb.co/gDHk9X3/babies200.jpg);
+  background-image: url(https://i.ibb.co/9qD4pTs/babiestxt.jpg);
   border-radius: 8px;
   height:250px;
   width:250px;
