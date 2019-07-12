@@ -30,9 +30,9 @@ nav{/*tamaño del menu del nav*/
     border-style: outset;
     border-width: 5px;
     float:left;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-top: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
     margin-bottom: 15em;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
@@ -112,11 +112,8 @@ nav{/*tamaño del menu del nav*/
 }
 #welcome{
     margin: 5%;
-    margin-bottom: -6%;
+    margin-bottom: -8%;
     text-align: center;
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
-}
-#movieContent{
-  
 }
