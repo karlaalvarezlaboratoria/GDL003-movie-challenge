@@ -125,3 +125,8 @@ align-content: center;
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
 }
+#facebookComments{
+  color: aqua;
+  align-items: center;
+  height: 20%;
+}
