@@ -24,7 +24,7 @@ nav{/*tamaño del menu del nav*/
 .flip-card {
     background-color: transparent;
     width: 280px;
-    height: 280px;
+    height: 430px;
     perspective: 1000px;
     border-color: white;
     border-style: outset;
@@ -33,9 +33,9 @@ nav{/*tamaño del menu del nav*/
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
-    margin-bottom: 15em;
+    margin-bottom: 5%;
     font-family: 'Questrial', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
   }
   .flip-card-inner {
     position: relative;
