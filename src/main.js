@@ -99,7 +99,7 @@ superHButton.addEventListener("click", () =>{
        </div>`
        window.scroll(0, 620);
   });
-  });
+  }); 
 });
 
 babiesButton.addEventListener("click", ()=>{
@@ -132,3 +132,11 @@ babiesButton.addEventListener("click", ()=>{
   });
   });
 });
+
+/*function refreshPage(){
+  window.location.reload();
+  document.getElementById("returnHome").innerHTML
+} */
+
+
+
