@@ -1,119 +1,127 @@
 *{ /*quita bordes por defecto*/
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body{
-    background-image: url("https://i.ibb.co/k5sw6qj/peliculasfondobien.jpg");
+  background-image: url("https://i.ibb.co/k5sw6qj/peliculasfondobien.jpg");
 }
 header{/*ancho de encabezado*/
-    width: 100%;
-    position: static;
+  width: 100%;
+  position: static;
 }
 nav{/*tamaño del menu del nav*/
-    margin: 0 auto;
-    width: 100%;
-    height: 40%;
-    background-image: url("https://c.pxhere.com/images/64/96/e58a983e4090cd9a285a7e8c73ae-1443307.jpg!d");
+  margin: 0 auto;
+  width: 100%;
+  height: 40%;
+  background-image: url("https://c.pxhere.com/images/64/96/e58a983e4090cd9a285a7e8c73ae-1443307.jpg!d");
 }
 #logo{
-    font-family:'Acme', sans-serif;;
-    font-size: 60px; 
-    text-align: center;
-    color: aliceblue;
+  font-family:'Acme', sans-serif;;
+  font-size: 60px; 
+  text-align: center;
+  color: aliceblue;
 }
 .flip-card {
-    background-color: transparent;
-    width: 280px;
-    height: 280px;
-    perspective: 1000px;
-    border-color: white;
-    border-style: outset;
-    border-width: 5px;
-    float:left;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 15em;
-    font-family: 'Questrial', sans-serif;
-    font-size: 20px;
-  }
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  .flip-card-front, .flip-card-back {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .flip-card-front {
-    background-color:transparent;
-    color: black;
-    float: left;
-  }
+  background-color: transparent;
+  width: 280px;
+  height: 280px;
+  perspective: 1000px;
+  border-color: white;
+  border-style: outset;
+  border-width: 5px;
+  float:left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 15em;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color:transparent;
+  color: black;
+  float: left;
+}
 .flip-card-back {
-    background-color:  #000000;
-    opacity:0.9;
-    color: white;
-    transform: rotateY(180deg);
-    float: left;
-  }
+  background-color:  #000000;
+  opacity:0.9;
+  color: white;
+  transform: rotateY(180deg);
+  float: left;
+}
 .princessesOptions{
-  background-image: url(https://i.ibb.co/n6Xr98n/princesstxt.jpg);
-  background-color: white;
-  border-radius: 8px;
-  height:250px;
-  width:250px;
-  margin-top: 18%;
-  margin-right:2.5%;
-  margin-left: 2.5%;
-  text-align-last: center;
+background-image: url(https://i.ibb.co/n6Xr98n/princesstxt.jpg);
+background-color: white;
+border-radius: 8px;
+height:250px;
+width:250px;
+margin-top: 18%;
+margin-right:2.5%;
+margin-left: 2.5%;
+text-align-last: center;
+cursor: pointer;
+cursor: url(img/pinkIcon.png), auto;
 }
 .heroesOptions{
-  background-image: url(https://i.ibb.co/ZYMM7bM/supertxt.jpg);
-  border-radius: 8px;
-  height:250px;
-  width:250px;
-  margin-top: 18%;
-  margin-right:2.5%;
-  margin-left: 2.5%;
+background-image: url(https://i.ibb.co/ZYMM7bM/supertxt.jpg);
+border-radius: 8px;
+height:250px;
+width:250px;
+margin-top: 18%;
+margin-right:2.5%;
+margin-left: 2.5%;
+cursor: pointer;
+cursor: url(img/thanosIcon.png), auto;
 }
 .adventureOptions{
-  background-image: url(https://i.ibb.co/dK2dz2v/adventuretxt.jpg);
-  border-radius: 8px;
-  height:250px;
-  width:250px;
-  margin-top: 18%;
-  margin-right:2.5%;
-  margin-left: 2.5%;
+background-image: url(https://i.ibb.co/dK2dz2v/adventuretxt.jpg);
+border-radius: 8px;
+height:250px;
+width:250px;
+margin-top: 18%;
+margin-right:2.5%;
+margin-left: 2.5%;
+cursor: pointer;
+cursor: url(img/toyStoryIcon.png), auto;
 }
 .babiesOptions{
-  background-image: url(https://i.ibb.co/9qD4pTs/babiestxt.jpg);
-  border-radius: 8px;
-  height:250px;
-  width:250px;
-  margin-top: 18%;
-  margin-right:2.5%;
-  margin-left: 2.5%;
+background-image: url(https://i.ibb.co/9qD4pTs/babiestxt.jpg);
+border-radius: 8px;
+height:250px;
+width:250px;
+margin-top: 18%;
+margin-right:2.5%;
+margin-left: 2.5%;
+cursor: pointer;
+cursor: url(img/mickeyIcon.png), auto;
 }
 .home{
-  align-items: center;
-  text-align: center;
-  align-content: center;
+align-items: center;
+text-align: center;
+align-content: center;
 }
 #welcome{
-    margin: 5%;
-    margin-bottom: -8%;
-    text-align: center;
-    font-family: 'Questrial', sans-serif;
-    font-size: 20px;
+  margin: 5%;
+  margin-bottom: -8%;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
 }
