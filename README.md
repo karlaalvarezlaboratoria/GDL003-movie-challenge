@@ -12,25 +12,33 @@ Juntas definimos que tipo de producto íbamos a crear y para quien iba a estar d
 
 (falta protitipo de alta fidelidad)
 
+Creamos un prototipo de alta fidelidad para ver nuestro diseño y guiarnos en el.
 
-Lo siguente fue probar con el método **fetch** para jalar la data y pintarla en la interfaz de forma ordenada... Continuará...
+<img src= "https://i.ibb.co/bPYXhYB/inicio-pel-culas.jpg" />
+<img src= "https://i.ibb.co/NZyV7q4/66802740-688147551653833-153155754931519488-n.jpg" />
+<img src= "https://i.ibb.co/NZyV7q4/66802740-688147551653833-153155754931519488-n.jpg" />
+
+Lo siguente fue probar con el método **fetch** para jalar la data y pintarla en la interfaz de forma ordenada.
+
+En este punto nos llegó feedback de algunos usuarios meta y de asesores de Laboratoria, lo que nos hizo replantearnos a nuestros usuarios iniciales y "estrechar" un poco el perfil. Pero también provocó que nuestro producto estuviera más enfocado a resolver una necesidad real.
 
 ### Definición del usuario:
-Niñ@s de 6 a 12 años y padres de familia con hijos de esa edad, con conocimiento básico de inglés o hablantes nativos. Que tengan la necesidad de encontrar películas apropiadas a ese rango de edad.
+Padres de familia con niños entre 1 y 12 años de edad, que busquen pelìculas adecuadas para ellos, y que valoren la opinión de otros padres para su selección
 
 ### Historias de usuario:
 
 #####  Historia de usuario 1:
-El usuario requiere botones por tipo de pelicula llamativos que lo lleven a la selección deseada.
+El usuario requiere botones por tipo de película que sean claros con respecto a lo que ofrecen y que lo lleven a la selección deseada.
 
 ##### Definition of Done:
-- La interfaz muestra los 4 botones por tipo de pelicula de forma llamativa y clara.
-- Cada botón muestra en la interfaz la información de las peliculas elegidas con su imagen de forma ordenada.
-- La interfaz muestra un botón para volver a la página de inicio.
+- La interfaz muestra los 4 botones por tipo de película de forma llamativa y clara.
+- Cada botón muestra en la interfaz la información de las películas elegidas con su imagen de forma ordenada.
+- La interfaz se baja de forma automática a la sección donde están las películas.
+- La interfaz muestra un botón para volver al inicio (o arriba)
 
 
 #### Historia de Usuario 2:
-Al usuario le gustaría poder ver el trailer de la pelicula seleccionada. (Si el tiempo lo permite):
+El usuario requiere una caja de comentario donde pueda dejar su opinión parental sobre la película vista, para que los demás padres puedan leerla y utilizarla. (Si el tiempo lo permite):
 
 
 
@@ -60,11 +68,11 @@ Este proyecto contiene los siguentes archivos.
 //(para el usuario)//
 ### Definición del producto
 
-MovieKids es una WebApp hecha especialmente para niños de 6 a 12 años y padres de familia que quieran encontrar información y recomendaciones sobre peliculas aptas para niños.
+MovieKids es una WebApp hecha padres de familia con niños de 2 a 12 años que quieran encontrar información y recomendaciones sobre películas aptas para sus hijos. Tiene filtro por tipo de película y la opción y oportunidad de que puedan escribir opiniones personalizadas sobre la película para que otros padres puedan valorarla.
 
 ### ¿Por qué MovieKids?
 
-En una época dónde el entretenimiento es producido en masa podemos perder la perspectiva sobre que es apropiado para que un niño lo vea y disfrute. MovieKids le da la tranquilidad a los padres de familia de que sus hijos pueden elegir películas apropiadas para ellos dentro de una interfaz amigable.
+En una época dónde el entretenimiento es producido en masa podemos perder la perspectiva sobre que es apropiado para que un niño lo vea y disfrute. MovieKids le da la tranquilidad a los padres de que están eligiendo una película apropiada para sus niños y recomendada por otros padres, además de darles la oportunidad de recomendar la película desde su muy personal punto de vista. Todo esto dentro de una interfaz amigable.
 
 ### Instrucciones
 
