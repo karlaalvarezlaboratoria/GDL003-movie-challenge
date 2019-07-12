@@ -125,6 +125,12 @@ align-content: center;
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
 }
+.return{
+  background-image: url(https://i.ibb.co/PM3VycH/boton-inicio.png);
+  border-radius: 8px;
+  height:30px;
+  width:30px;
+}
 #facebookComments{
   color: aqua;
   align-items: center;
@@ -147,7 +153,9 @@ align-content: center;
 
 
 
+
 .commentBox{
   background-color: white;
   margin: 5%;
 }
+
