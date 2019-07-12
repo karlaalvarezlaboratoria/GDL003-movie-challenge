@@ -35,7 +35,7 @@ princessButton.addEventListener("click", () => {
            </div>
          </div>
        </div>`
-
+       window.scroll(0, 620);
   });
   });
 });
@@ -66,7 +66,7 @@ adventuresButton.addEventListener("click", () => {
            </div>
          </div>
        </div>`
-
+       window.scroll(0, 620);
   });
   });
 });
@@ -97,7 +97,7 @@ superHButton.addEventListener("click", () =>{
            </div>
          </div>
        </div>`
-
+       window.scroll(0, 620);
   });
   });
 });
@@ -128,7 +128,7 @@ babiesButton.addEventListener("click", ()=>{
            </div>
          </div>
        </div>`
-
+       window.scroll(0, 620);
   });
   });
 });
